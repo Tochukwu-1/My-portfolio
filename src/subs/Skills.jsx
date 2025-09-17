@@ -10,15 +10,15 @@ function Skills() {
         <ul>
             <li className="skill">
                 <h3>HTML</h3>
-                <p className="experience">{yeardate - 2022} Years Experience</p>
+                <p className="experience">{yeardate - 2023} Years Experience</p>
             </li>
             <li className="skill">
                 <h3>CSS</h3>
-                <p className="experience">{yeardate - 2022} Years Experience</p>
+                <p className="experience">{yeardate - 2023} Years Experience</p>
             </li>
             <li className="skill">
                 <h3>JavaScript</h3>
-                <p className="experience">{yeardate - 2022} Years Experience</p>
+                <p className="experience">{yeardate - 2023} Years Experience</p>
             </li>
             <li className="skill">
                 <h3>React</h3>

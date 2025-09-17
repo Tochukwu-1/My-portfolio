@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import emailjs from "emailjs-com";
-import "./Contact.css"; // styles below
+import "../css/Contact.css"; // styles below
 
 const Contact = () => {
   const form = useRef();
@@ -40,11 +40,11 @@ const Contact = () => {
       {/* Name */}
       <div className={`form-group ${formData.name ? "filled" : ""}`}>
         <input
+          className={`form-input ${formData.name ? "entered" : ""}`}
           type="text"
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className="form-input"
           placeholder=" "
           required
         />
@@ -58,7 +58,7 @@ const Contact = () => {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className="form-input"
+          className={`form-input ${formData.email ? "entered" : ""}`}
           placeholder=" "
           required
         />
@@ -71,7 +71,7 @@ const Contact = () => {
           name="message"
           value={formData.message}
           onChange={handleChange}
-          className="form-input textarea"
+          className={`form-input textarea ${formData.message ? "entered" : ""}`}
           placeholder=" "
           rows="4"
           required

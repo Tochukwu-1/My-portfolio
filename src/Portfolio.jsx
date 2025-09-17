@@ -1,45 +1,44 @@
 import React from "react";
-import ReactDom from "react-dom/client";
 import Menu from "./subs/Menu.jsx";
-import "./Portfolio.css";
+import "./css/Portfolio.css";
 import Skills from "./subs/Skills.jsx";
-import Projects from "./Projects.jsx";
-import Github from "./github_icon.svg";
+import Projects from "./subs/Projects.jsx";
+import Github from "./assets/icons/github_icon.svg";
 import Linkedin  from './assets/Icons/linkedin.svg';
 import Twitter  from './assets/Icons/twitter.svg';
 import Frontendmentor  from './assets/Icons/frontendmentor.png';
-
-
-import Contact from "./Contact.jsx";
+import Contact from "./subs/Contact.jsx";
 
 function Portfolio() {
+  
   return (
     <div className="body">
       <div className="portfolio">
         <header>
           <div className="left">
             <Menu />
-            <h4>Asogwa Tochukwu</h4>
+            <h4><pre>Asogwa Tochukwu</pre></h4>
           </div>
           <div className="right">
             <li>
-              <a href="https://www.github.com/Tochukwu-1/">
+              <a href="https://www.github.com/Tochukwu-1/" target="_blank">
                 <img src={Github} alt=""  className="icons"/>
-                {/* <Github  /> */}
               </a>
             </li>
             <li>
-              <a href="https://www.frontendmentor.io/Tochukwu-1">
+              <a href="https://www.frontendmentor.io/profile/Tochukwu-1" target="_blank">
                 <img src={Frontendmentor} alt="Frontendmentor"  className="icons"/>
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com">
+              <a href="https://www.linkedin.com/in/asogwa-tochukwu-97b164266/" target="_blank">
                 <img src={Linkedin} alt="Linkedin"  className="icons"/>
               </a>
             </li>
             <li>
-              <a href="https://www.X.com"><img src={Twitter} alt="Twitter"  className="icons" /></a>
+              <a href="https://x.com/A__Gabriel__T" target="_blank">
+                <img src={Twitter} alt="Twitter"  className="icons" />
+              </a>
             </li>
           </div>
         </header>
@@ -56,7 +55,6 @@ function Portfolio() {
                 <br /> passionate about building accessible webpages
                 <br /> that users love.
               </p>
-              <br />
               <br />
               <p className="contact">
                 <a href="#contactme">CONTACT ME</a>
@@ -95,16 +93,24 @@ function Portfolio() {
           </div>
           <div className="right-footer-link">
             <li>
-              <a href="https://www.github.com/Tochukwu-1/">Github</a>
+              <a href="https://www.github.com/Tochukwu-1/">
+                <img src={Github} alt=""  className="icons"/>
+              </a>
             </li>
             <li>
-              <a href="frontendmentor.io/Tochukwu-1">Frontendmentor</a>
+              <a href="https://www.frontendmentor.io/Tochukwu-1">
+                <img src={Frontendmentor} alt="Frontendmentor"  className="icons"/>
+              </a>
             </li>
             <li>
-              <a href="linkedin.com">LinkedIn</a>
+              <a href="https://www.linkedin.com">
+                <img src={Linkedin} alt="Linkedin"  className="icons"/>
+              </a>
             </li>
             <li>
-              <a href="X.com">Twitter</a>
+              <a href="https://www.X.com">
+                <img src={Twitter} alt="Twitter"  className="icons" />
+              </a>
             </li>
           </div>
         </div>

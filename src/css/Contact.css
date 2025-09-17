@@ -3,7 +3,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  font-family: Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .form-group {
@@ -14,13 +14,14 @@
 
 .form-input {
   width: 100%;
-  padding: 1rem 0.5rem 0.2rem;
+  padding: 1.2rem 0.5rem 0.2rem;
   font-size: 15px;
   color: #dddddd;
   border: none;
-  border-bottom: 2px solid #b9b9b9;
+  border-bottom: 2px solid #4b4b4b;
   background: transparent;
   outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   resize: none;
 }
 input{
@@ -47,10 +48,14 @@ input{
 .form-input:hover + .form-label {
   top: 0;
   font-size: 18px;
-  color: #cecece;
+  color: #999999;
   height: fit-content;
+  font-style: italic;
 }
-
+.entered{
+  transition: 3s;
+  border-bottom: 2px solid #999999 !important;
+}
 .textarea {
   margin-top: 10px;
 }
@@ -64,6 +69,11 @@ input{
     to   {border-color: green}
     
 }
+.submit-btn{
+  color: #999999 !important;
+}
 .submit-btn:hover{
+  transition: .5s;
    animation: BorderColor infinite .5s;
+   color: #b7b7b7 !important;
 }
