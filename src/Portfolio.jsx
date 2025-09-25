@@ -1,6 +1,7 @@
 import React from "react";
 import Menu from "./subs/Menu.jsx";
 import "./css/Portfolio.css";
+import "./css/views.css";
 import Skills from "./subs/Skills.jsx";
 import Projects from "./subs/Projects.jsx";
 import Github from "./assets/icons/github_icon.svg";
@@ -36,7 +37,7 @@ function Portfolio() {
               </a>
             </li>
             <li>
-              <a href="https://x.com/A__Gabriel__T" target="_blank">
+              <a href="https://www.X.com">
                 <img src={Twitter} alt="Twitter"  className="icons" />
               </a>
             </li>
@@ -56,7 +57,7 @@ function Portfolio() {
                 <br /> that users love.
               </p>
               <br />
-              <p className="contact">
+              <p className="contactme">
                 <a href="#contactme">CONTACT ME</a>
               </p>
             </div>
@@ -112,6 +113,7 @@ function Portfolio() {
                 <img src={Twitter} alt="Twitter"  className="icons" />
               </a>
             </li>
+            
           </div>
         </div>
       </footer>

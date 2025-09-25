@@ -19,9 +19,9 @@ function Projects() {
                 <li>
                     <a href={project.liveurl} target='_blank'>
                         <img src={project.image} alt={project.name} />
+                    </a>
                         <h2>{project.name}</h2>
                         <p>{project.skills}</p>
-                    </a>
                     <p><a href={project.solutionurl}>Solution Url</a></p>
 
                 </li>)}

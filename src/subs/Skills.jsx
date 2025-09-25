@@ -7,7 +7,7 @@ function Skills() {
     // const date = new Date().getFullYear();
     const monthdate = new Date().getMonth();
     return (
-        <ul>
+        <ul className='skills'>
             <li className="skill">
                 <h3>HTML</h3>
                 <p className="experience">{yeardate - 2023} Years Experience</p>

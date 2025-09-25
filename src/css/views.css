@@ -1,0 +1,83 @@
+@media screen and (max-width:500px) {
+
+section#profile{
+    flex-direction: column-reverse !important;
+        
+}
+body, main, #profile{
+    height: auto;
+}
+section#profile .rightProfile{
+    width: 100%;
+    position: static;
+    height: 90%;
+    z-index: 1;
+}
+#profile .rightProfile img{
+        border-radius: 0 !important;
+    }
+section#profile .leftProfile{
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.leftProfile *{
+    text-align: center;
+}
+    
+.projects ul{
+    display: flex !important;
+    flex-direction: column ;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#contactme .leftfooter{
+    display: flex;
+    flex-direction: column;
+    width: 90% !important;
+    margin: 0 auto;
+}
+.contact div{
+    width: 100% !important;
+}
+.form-container{
+    padding: 0 20px;
+    margin: 20px auto !important;
+    box-shadow: 0 0 5px gray;
+}
+.skills{
+    grid-template-columns: repeat(2, 50%) !important;
+}
+.menu{
+    height: 55% !important;
+    width: 100% !important;
+    border-radius: 0 0 20px 20px;
+    box-sizing: border-box !important;
+}
+
+header h4{
+    display: none;
+}
+header .right{
+    width: 60% !important;
+}
+}
+
+@media screen and (min-width: 501px)and (max-width: 800px){
+    .menu{
+        width: 55vw !important;
+    }
+    #profile .rightProfile{
+        width: 70% !important;
+    }
+    #profile .rightProfile img{
+        border-radius: 50%;
+    }
+    #projects h2{
+        font-size: larger;
+    }
+}
