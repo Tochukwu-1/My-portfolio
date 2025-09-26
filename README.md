@@ -31,7 +31,7 @@ Currently focused on **HTML, CSS, JavaScript, and React**, while continuously ex
 
 ## 📫 Connect With Me
 - 💼 [LinkedIn](https://www.linkedin.com/in/asogwa-tochukwu-97b164266/)  
-- 🐦 [Twitter]("https://www.X.com")  
+- 🐦 [Twitter](https://x.com/A__Gabriel__T)  
 - 📧 Email: **Tochukwuasogwa@gmail.com**  
 
 ---

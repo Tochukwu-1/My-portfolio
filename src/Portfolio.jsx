@@ -37,7 +37,7 @@ function Portfolio() {
               </a>
             </li>
             <li>
-              <a href="https://www.X.com">
+              <a href="https://x.com/A__Gabriel__T" target="_blank"> 
                 <img src={Twitter} alt="Twitter"  className="icons" />
               </a>
             </li>
