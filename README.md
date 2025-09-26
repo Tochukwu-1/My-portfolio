@@ -1,12 +1,39 @@
-# React + Vite
+# 👋 Hi, I'm Asogwa Tochukwu Gabriel  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+💻 **Front-End Developer | Problem Solver | Tech Enthusiast**  
 
-Currently, two official plugins are available:
+I’m passionate about building modern, responsive, and user-friendly web applications.  
+Currently focused on **HTML, CSS, JavaScript, and React**, while continuously expanding my skills in full-stack development.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Skills & Tools
+- 🌐 **Frontend:** HTML, CSS, JavaScript, React  
+- ⚡ **Other Skills:** Problem-solving, Debugging, Clean Code Practices  
+- 📚 **Soft Skills:** Fast learner, Team player, Good communication in English  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📈 What I’m Working On
+- Building and refining responsive web projects with React  
+- Exploring backend technologies for full-stack development  
+- Improving problem-solving skills with real-world projects  
+
+---
+
+## 🛠 Projects
+🔹 [Project 1 – Contact form Website](https://github.com/Tochukwu-1/Frontend-Mentor-Contact-form/)  
+🔹 [Project 2 – Mortgage repayment calculator](https://tochukwu-1.github.io/Mortgage-repayment-calculator/)
+
+ 
+
+---
+
+## 📫 Connect With Me
+- 💼 [LinkedIn](https://www.linkedin.com/in/asogwa-tochukwu-97b164266/)  
+- 🐦 [Twitter]("https://www.X.com")  
+- 📧 Email: **Tochukwuasogwa@gmail.com**  
+
+---
+
+⭐️ From [Asogwa Tochukwu Gabriel](https://github.com/Tochukwu-1)  

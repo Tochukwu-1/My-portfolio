@@ -1,3 +1,5 @@
+
+
 .menu{
     transition: .5s;
     height: 100%;
@@ -23,7 +25,6 @@
 
 }
 .menu li{
-    border-top: 2px solid rgba(74, 196, 74, 0.632);
     border-bottom: 2px solid #353535;
     width: 80%;
     height: 100%;
@@ -33,7 +34,12 @@
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    transition: .6s;
+    
+}
+.menu li:hover{
+    transition: .5s;
+    border-bottom: 1px solid #353535;
+    border-top: 1px solid rgba(74, 196, 74, 0.632);
 
 }
 
@@ -48,6 +54,7 @@
 .menu a:hover{
     transition: .3s;
     font-size: larger;
+    padding: 7% 25%;
 }
 .menu .icons{
     margin : 2px 0 0 5vw;

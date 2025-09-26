@@ -74,7 +74,7 @@ input{
 }
 .submit-btn:hover{
   transition: .5s;
-   animation: BorderColor infinite .5s;
+   animation: BorderColor infinite 1s;
    color: #b7b7b7 !important;
 }
 
