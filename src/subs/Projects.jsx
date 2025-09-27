@@ -5,7 +5,7 @@ const projects =[
     {'name':'QR Component', 'skills': 'HTML CSS' ,'image':'./images/projects/qrc-component.jpg', 'liveurl': 'https://frontend-mentor-qr-code-gamma.vercel.app/', 'solutionurl': 'https://github.com/Tochukwu-1/Frontend-Mentor-QR-Code'},
     {'name':'Form', 'skills': 'HTML CSS JS' ,'image':'./images/projects/contact-form.png', 'liveurl': '', 'solutionurl': 'https://github.com/Tochukwu-1/Frontend-Mentor-Contact-form/'},
     {'name':'Mortgage Calculator', 'skills': 'HTML CSS React' ,'image':'./images/projects/mortgage-calc.png', 'liveurl': 'https://tochukwu-1.github.io/Mortgage-repayment-calculator/', 'solutionurl': 'https://github.com/Tochukwu-1/Frontend-Mentor---Mortgage-repayment-calculator'},
-    {'name':'Portfolio', 'skills': 'HTML CSS React' ,'image':'/images/projects/Portfolio.PNG', 'liveurl': 'https://tochukwu-1.github.io/My-portfolio/', 'solutionurl': 'https://github.com/Tochukwu-1/My-portfolio'}
+    {'name':'Portfolio', 'skills': 'HTML CSS React' ,'image':'./images/projects/Portfolio.PNG', 'liveurl': 'https://tochukwu-1.github.io/My-portfolio/', 'solutionurl': 'https://github.com/Tochukwu-1/My-portfolio'}
 ]
  
 function Projects() {

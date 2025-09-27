@@ -4,11 +4,14 @@ import "./css/Portfolio.css";
 import "./css/views.css";
 import Skills from "./subs/Skills.jsx";
 import Projects from "./subs/Projects.jsx";
+import Contact from "./subs/Contact.jsx";
+
 import Github from "./assets/icons/github_icon.svg";
 import Linkedin  from './assets/Icons/linkedin.svg';
 import Twitter  from './assets/Icons/twitter.svg';
 import Frontendmentor  from './assets/Icons/frontendmentor.png';
-import Contact from "./subs/Contact.jsx";
+
+import profilePic from "/images/profilepic.jpg";
 
 function Portfolio() {
   
@@ -62,7 +65,7 @@ function Portfolio() {
               </p>
             </div>
             <div className="rightProfile">
-              <img src="/images/IMG-20231004-WA0006.jpg" alt="" />
+              <img src={profilePic} alt="" />
             </div>
           </section>
           <hr />

@@ -1,25 +1,29 @@
 import React, { useState } from "react";
 import ReactDom from "react-dom/client";
+
 import "../css/menu.css";
 
+import menuIcon from "../assets/Icons/menuIcon.svg";
+import closeIcon from "../assets/Icons/closeIcon.svg";
+
 function Menu() {
-  const [menu, setMenu] = useState("src/assets/Icons/menuIcon.svg");
+  const [menu, setMenu] = useState(menuIcon);
   return (
-    <div className={menu === "src/assets/Icons/menuIcon.svg" ? "" : "shadow"} 
+    <div className={menu === menuIcon ? "" : "shadow"} 
       onClick={()=>
         setMenu(
-            menu === "src/assets/Icons/menuIcon.svg"
-              ? "src/assets/Icons/closeIcon.svg"
-              : "src/assets/Icons/menuIcon.svg")}>
+            menu === menuIcon
+              ? closeIcon
+              : menuIcon)}>
       <div
         className={` Menu ${
-          menu === "src/assets/Icons/closeIcon.svg" ? "menu" : ""
+          menu === closeIcon ? "menu" : ""
         }`}
         onClick={() =>
           setMenu(
-            menu === "src/assets/Icons/menuIcon.svg"
-              ? "src/assets/Icons/closeIcon.svg"
-              : "src/assets/Icons/menuIcon.svg"
+            menu === menuIcon
+              ? closeIcon
+              : menuIcon
           )
         }
       >
@@ -28,16 +32,16 @@ function Menu() {
           className="icons"
           onClick={() =>
             setMenu(
-              menu === "src/assets/Icons/menuIcon.svg"
-                ? "src/assets/Icons/closeIcon.svg"
-                : "src/assets/Icons/menuIcon.svg"
+              menu === "./assets/Icons/menuIcon.svg"
+                ? closeIcon
+                : "./assets/Icons/menuIcon.svg"
             )
           }
         />
         <ul
           className="menuList"
           style={
-            menu === "src/assets/Icons/closeIcon.svg"
+            menu === closeIcon
               ? { position: "absolute" }
               : { display: "none" }
           }
