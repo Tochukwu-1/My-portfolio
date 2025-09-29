@@ -107,12 +107,12 @@ function Portfolio() {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com">
+              <a href="https://www.linkedin.com/in/tochukwu-asogwa-97b164266/">
                 <img src={Linkedin} alt="Linkedin"  className="icons"/>
               </a>
             </li>
             <li>
-              <a href="https://www.X.com">
+              <a href="https://x.com/A__Gabriel__T" target="_blank">
                 <img src={Twitter} alt="Twitter"  className="icons" />
               </a>
             </li>
