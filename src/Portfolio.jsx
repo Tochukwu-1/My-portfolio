@@ -35,7 +35,7 @@ function Portfolio() {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/asogwa-tochukwu-97b164266/" target="_blank">
+              <a href="https://www.linkedin.com/in/tochukwu-asogwa-97b164266/" target="_blank">
                 <img src={Linkedin} alt="Linkedin"  className="icons"/>
               </a>
             </li>
