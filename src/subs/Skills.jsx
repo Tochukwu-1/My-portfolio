@@ -22,7 +22,7 @@ function Skills() {
             </li>
             <li className="skill">
                 <h3>React</h3>
-                <p className="experience">{monthdate - 2 } Months Experience</p>
+                <p className="experience">{yeardate - 2025} Year Experience</p>
             </li>
            
         </ul>
