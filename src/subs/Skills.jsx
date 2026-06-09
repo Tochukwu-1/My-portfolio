@@ -5,7 +5,7 @@ import ReactDom from 'react-dom/client'
 function Skills() {
     const yeardate = new Date().getFullYear();
     // const date = new Date().getFullYear();
-    const monthdate = new Date().getMonth();
+    // const monthdate = new Date().getMonth();
     return (
         <ul className='skills'>
             <li className="skill">

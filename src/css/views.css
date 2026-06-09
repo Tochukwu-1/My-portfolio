@@ -71,11 +71,8 @@ header .right{
     .menu{
         width: 55vw !important;
     }
-    #profile .rightProfile{
+    #profile .rightProfile {
         width: 70% !important;
-    }
-    #profile .rightProfile img{
-        border-radius: 50%;
     }
     #projects h2{
         font-size: larger;

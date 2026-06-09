@@ -74,6 +74,11 @@ const Contact = () => {
           className={`form-input textarea ${formData.message ? "entered" : ""}`}
           placeholder=" "
           rows="4"
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              e.preventDefault();
+              sendEmail(e);
+            }}}
           required
         />
         <label className="form-label form-message">Message</label>
